@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f6f2f2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#head {
+    height:10vh;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: default;
+    background: #313030;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 2vh;
+    border-radius: 1vw;
+}
+
+#main {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f6f2f2
+}
+
+#footer {
+    flex-direction: row;
+    height: 5vh;
+    background: #313030;
+    color: white;
+    font-weight: 200;
+    font-size: 0.7em;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px -5px 5px 0px #f6f2f2;
+}
+
+#lada {
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: url(photo/lada.svg);
+    background-repeat: no-repeat;
+    background-size: 75vh;
+    background-position: right bottom;
+    z-index: 1;
+}
+
+#prava {
+    margin-left: 5vw;
+}
+
+#IKurn {
+    margin-right: 5vw;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+#IKurn:hover {
+    transform: translateY(-1px);
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+#icon {
+    height: 2.5vw;
+    width: 2.5vw;
+    background-image: url(photo/broken-car-gold.png);
+    background-size: cover;
+    margin-right: 1vw;
+}
+
+#logo, #head-phone, #head-contacts {
+    margin: 0 5vw
+}
+
+#logo {
+    line-height: 1;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+#head-phone {
+    text-align: center;
+    font-weight: 500;
+    z-index: 100;
+}
+
+#grafik {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.logo-top {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600
+}
+
+.logo-bottom {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600
+}
+
+#head-phone, #head-contacts {
+    color: white;
+    font-size: 1em;
+    font-weight: 600
+}
+
+#head-contacts {
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5vw;
+}
+
+#head-contacts:hover {
+    color: #ff2d2d;
+    transition: 0.2s
+}
+
+#head-contacts:not(:hover) {
+    color: white;
+    transition: 0.2s
+}
+
+.number {
+    text-align: center;
+    background: white;
+    font-weight: 500;
+    font-size: 2em;
+    margin: 0 auto;
+    border-radius: 1vw;
+    width: 20vw;
+    text-decoration: none;
+    color: black;
+    z-index: 100;
+}
+
+#main-text-top {
+    font-size: 4em;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+}
+
+.now {
+    color: #dec123;
+    animation-name: main-text-center;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#main-text-center {
+    text-align: center;
+    font-size: 1em;
+    margin: 2vh 20vw;
+    font-weight: 500;
+}
+
+#main-button {
+    font-size: 1.1em;
+    color: white;
+    background: #ff2d2d;
+    border: 0;
+    border-radius: 1vw;
+    height: 60px;
+    margin: 0 42vw;
+    box-shadow: 0px 3px 10px 0px #313030;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#main-button:hover {
+    background: #d12626;
+    transition: 1s;
+}
+
+#main-button:not(:hover) {
+    background: #ff2d2d;
+    transition: 1s;
+}
+
+.arrow-down {
+    display: flex;
+    height: 60px;
+    margin: 5% 48% 0% 48%;
+    justify-content: center;
+    background-image: url('down-arrow.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    animation-name: arrow-down;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#main-avto {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+}
+
+#text-avto {
+    font-size: 3.5em;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5vh;
+    color: black;
+}
+
+div.now {
+    display: inline;
+    color: #dec123;
+    animation: none;
+}
+
+#spisok {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.spis {
+    height: 280px;
+    width: 220px;
+    text-align: center;
+    color: black;
+    border-radius: 5%;
+    background-size: cover;
+    margin-top: 4vh;
+    font-weight: 700;
+    padding-top: 20px;
+    border: 2px dashed #ff2d2d;
+}
+
+#spis-1:hover, #spis-2:hover, #spis-3:hover, #spis-4:hover, #spis-5:hover, #spis-6:hover {
+    transform: translateY(-5px);
+    transition: 1s;
+}
+
+#spis-1:not(:hover), #spis-2:not(:hover), #spis-3:not(:hover), #spis-4:not(:hover), #spis-5:not(:hover), #spis-6:not(:hover) {
+    transform: translateY(0);
+    transition: 1s;
+}
+
+#spis-1 {
+    background-image: url(photo/spisok/1.jpg);
+    margin: 1.5vw;
+}
+
+#spis-2 {
+    background-image: url(photo/spisok/2.png);
+    margin: 1.5vw;
+}
+
+#spis-3 {
+    background-image: url(photo/spisok/3.png);
+    margin: 1.5vw;
+}
+
+#spis-4 {
+    background-image: url(photo/spisok/4.png);
+    margin: 1.5vw;
+}
+
+#spis-5 {
+    background-image: url(photo/spisok/5.png);
+    margin: 1.5vw;
+}
+
+#spis-6 {
+    background-image: url(photo/spisok/6.png);
+    margin: 1.5vw;
+}
+
+#main-avto-border {
+    height: 1px;
+    width: 100%;
+    background: white
+}
+
+#border {
+    height: inherit;
+    width: 85vw;
+    background: #f6f2f2;
+    margin: 0 auto
+}
+
+#main-contact {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: white;
+    align-items: center;
+}
+
+.contact {
+    height: 500px;
+    width: 700px;
+/*    border: 1px solid;*/
+    margin: 2vh;
+    text-align: center;
+}
+
+#contact-map {
+    height: 400px;
+    width: 600px;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-info p {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+#contact-info a {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    background: #f6f2f2;
+    width: 80%;
+}
+
+#contact-info a:hover {
+    color: #ff2d2d;
+    transition: 0.2s
+}
+
+.mail {
+    background: white !important
+}
+
+#red-line {
+    height: 2px;
+    width: 40%;
+    background: #ff2d2d;
+    margin-bottom: 5%
+}
+
+#button-form {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-back {
+    display: block;
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    background: black;
+    z-index: 101;
+    opacity: 0.7
+}
+
+#form-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80%;
+    width: 30%;
+    background: white;
+    z-index: 102;
+    border-radius: 1vw;
+}
+
+#form-exit {
+    position: absolute;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 2.5em;
+    z-index: 103;
+    top: 10%;
+    right: 36%;
+    transform: rotate(45deg)
+}
+
+#form-exit:hover {
+    color: #ff2d2d;
+    transition: 0.2s
+}
+
+.form-animation {
+    animation-name: form;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+}
+
+.form-animation-block {
+    animation-name: form-block;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+}
+
+#form-text {
+    font-size: 2.5em;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 8vh;
+}
+
+#button-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-input {
+    margin-bottom: 8%;
+    height: 6vh;
+    width: 180%;
+/*    border: 1px dashed #ff2d2d;*/
+    padding-left: 5%;
+    border-radius: 0.5vw;
+    background: #f6f2f2;
+    border: none
+}
+
+.form-input:focus::placeholder {
+    color: black
+}
+
+.red-line {
+    height: 2px;
+    width: 10vw;
+    background: #ff2d2d;
+    margin-bottom: 5vh;
+}
+
+#form-submit {
+    font-size: 1em;
+    color: white;
+    background: #ff2d2d;
+    border: 0;
+    border-radius: 0.5vw;
+    height: 50px;
+    width: 10vw;
+    box-shadow: 0px 3px 10px 0px #313030;
+    cursor: pointer;
+}
+
+#form-submit:hover {
+    background: #d12626;
+    transition: 1s;
+}
+
+#form-bottom-text {
+    text-align: center;
+    margin: 5vh;
+    font-weight: 100;
+    font-size: 0.8em
+}

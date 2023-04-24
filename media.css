@@ -1,0 +1,267 @@
+@media (max-width: 1400px) {
+    #main-avto {
+        box-shadow: inset 0px 5vh 0px 20vw white;
+    }
+    
+    #lada {
+        background-size: 65vh
+    }
+    
+    .number {
+        width: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    #form-block {
+        width: 40%
+    }
+    
+    #form-exit {
+        top: 10%;
+        right: 31%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #logo {
+        margin-right: 10%
+    }
+    
+    #head-phone {
+        margin-right: 15%
+    }
+    
+    #head-contacts {
+        margin-right: 5%
+    }
+    
+    #main-button {
+        margin: 0 38vw
+    }
+    
+    #lada {
+        background-size: 55vh
+    }
+    
+    #form-block {
+        width: 50%
+    }
+    
+    #form-submit, .red-line {
+        width: 15vw
+    }
+    
+    #form-exit {
+        top: 10%;
+        right: 27%;
+    }
+}
+
+@media (max-width: 900px) {
+     #head-contacts {
+        display: none;
+    }
+    
+    #head-phone {
+        margin-right: 5vw
+    }
+    
+    #head {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 800px) {
+    #main-avto {
+        box-shadow: inset 0px 5vh 0px 30vw white;
+    }
+    
+    #lada {
+        background-size: 45vh
+    }
+    
+    .number {
+        font-size: 1.5em
+    }
+    
+    #form-block {
+        width: 60%
+    }
+    
+    #form-submit, .red-line {
+        width: 20vw
+    }
+    
+    #form-exit {
+        top: 10%;
+        right: 22%;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    #head-phone {
+        margin-right: 0;
+    }
+    
+    #icon {
+        height: 4vw;
+        width: 4vw
+    }
+    
+    #main-button {
+        margin: 0 35vw
+    }
+}
+
+@media (max-width: 600px) {
+    #text-avto {
+        font-size: 3em
+    }
+    
+    #main-text-top {
+        3.5em;
+    }
+    
+    #main-text-center {
+        font-size: 0.8em;
+    }
+    
+    #main-avto {
+        box-shadow: inset 0px 8vh 0px 40vw white;
+    }
+    
+    #head {
+        width: 95vw;
+    }
+    
+    #contact-info a {
+        font-size: 1.5em;
+    }
+    
+    #contact-info {
+        height: 400px
+    }
+    
+    #form-block {
+        width: 70%
+    }
+    
+    #form-submit, .red-line {
+        width: 25vw
+    }
+    
+    #form-exit {
+        top: 10%;
+        right: 18%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    #main-text-top {
+        font-size: 3em
+    }
+    
+    .logo-top {
+    font-size: 1.2em;
+}
+
+    .logo-bottom {
+    font-size: 0.9em
+}
+    
+    #icon {
+        height: 5vw;
+        width: 5vw;
+    }
+    
+    #head-phone {
+        font-size: 0.7em;
+    }
+    
+    #grafik {
+        font-size: 0.6em;
+    }
+    
+    #main-button {
+        height: 50px;
+        margin: 0 32vw;
+        font-size: 0.8em;
+    }
+    
+    #lada {
+        background-size: 35vh
+    }
+    
+    #main-button {
+        margin-bottom: 10vh
+    }
+    
+    #contact-info p {
+        line-height: 6vh
+    }
+    
+    .form-input {
+        width: 150%
+    }
+    
+    #form-block {
+        height: 70%;
+        width: 80%
+    }
+    
+    #form-text {
+        font-size: 2.2em
+    }
+    
+    #form-exit {
+        top: 15%;
+        right: 13%;
+    }
+    
+    #form-submit {
+    font-size: 0.8em;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    #main-avto {
+        box-shadow: inset 0px 5vh 0px 45vw white;
+    }
+    
+    .form-input {
+        width: 130%
+    }
+    
+    #form-block {
+        height: 70%;
+        width: 80%
+    }
+    
+    #form-text {
+        font-size: 2em
+    }
+    
+    #form-submit, .red-line {
+        width: 35vw
+    }
+}
+
+@media (max-width: 345px) {
+    #lada {
+        display: none;
+    }
+}
+
+@media (max-width: 300px) {
+    #main {
+        height: auto;
+    }
+    
+    #main-text-top {
+        font-size: 2em
+    }
+}
